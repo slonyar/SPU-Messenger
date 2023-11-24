@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>delete.svg</file>
+    <file>logout.svg</file>
+    <file>person.svg</file>
+    <file>write.svg</file>
+  </qresource>
+</RCC>

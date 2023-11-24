@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Ubuntu</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  qlineargradient(spread:pad, x1:0 y1:0, x2:1 y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: qlineargradient( x1:0 y1:0, x2:1 y2:0, stop:0 #2de2e6, stop:1 #ECC6A2);
+font-family: Ubuntu</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLineEdit" name="login">
+      <property name="font">
+       <font>
+        <family>Ubuntu</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 70);
+border: 2px solid rgba(255, 255, 255, 80);
+border-radius: 5px;
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Login</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="password">
+      <property name="font">
+       <font>
+        <family>Ubuntu</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255, 70);
+border: 2px solid rgba(255, 255, 255, 80);
+border-radius: 5px;
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="sign_in">
+      <property name="font">
+       <font>
+        <family>Ubuntu</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: black;
+background-color: none;
+border: none;
+font-size: 20 pt;
+}
+QPushButton:hover {
+color: white;
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255, 255, 255, 70);
+border: 1px solid rgba(255, 255, 255, 80);
+border-radius: 3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sign In</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icons/resources_auth.qrc">
+        <normaloff>:/newPrefix/login.svg</normaloff>:/newPrefix/login.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+      <property name="autoRepeatInterval">
+       <number>100</number>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="sign_up">
+      <property name="font">
+       <font>
+        <family>Ubuntu</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: black;
+background-color: none;
+border: none;
+font-size: 20 pt;
+}
+QPushButton:hover {
+color: white;
+}
+QPushButton:pressed {
+color: white;
+background-color: rgba(255, 255, 255, 70);
+border: 1px solid rgba(255, 255, 255, 80);
+border-radius: 3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Sign Up</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../icons/resources_auth.qrc">
+        <normaloff>:/newPrefix/person_add.svg</normaloff>:/newPrefix/person_add.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../icons/resources_auth.qrc"/>
+ </resources>
+ <connections/>
+</ui>

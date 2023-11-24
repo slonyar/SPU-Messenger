@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>login.svg</file>
+    <file>person_add.svg</file>
+  </qresource>
+</RCC>
